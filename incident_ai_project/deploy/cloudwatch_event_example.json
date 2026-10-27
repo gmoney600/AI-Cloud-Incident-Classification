@@ -1,0 +1,1 @@
+{"source":"aws.cloudwatch","detail-type":"CloudWatch Alarm State Change","detail":{"alarmName":"db-high-cpu","state":{"value":"ALARM","reason":"Database CPU utilization above threshold"}}}

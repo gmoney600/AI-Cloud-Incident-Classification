@@ -1,0 +1,16 @@
+message,category
+Compute node utilization high; please investigate the cloud service.,compute
+Autoscaling group cannot launch instance; please investigate the cloud service.,compute
+Compute host thermal warning; please investigate the cloud service.,compute
+Database service returning errors; please investigate the cloud service.,database
+Database connection pool exhausted; please investigate the cloud service.,database
+Query execution plans have degraded; please investigate the cloud service.,database
+Routing table change disrupted traffic; please investigate the cloud service.,network
+Network latency increased sharply; please investigate the cloud service.,network
+Load balancer backend unreachable; please investigate the cloud service.,network
+Privilege escalation event flagged; please investigate the cloud service.,security
+Unauthorized access attempt detected; please investigate the cloud service.,security
+Security policy violation identified; please investigate the cloud service.,security
+Object storage upload errors; please investigate the cloud service.,storage
+Storage snapshot operation failed; please investigate the cloud service.,storage
+Storage volume write failures; please investigate the cloud service.,storage

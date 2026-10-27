@@ -1,0 +1,16 @@
+message,actual,predicted,confidence,manual_review,latency_ms
+Compute node utilization high; please investigate the cloud service.,compute,network,0.2086,True,0.652
+Autoscaling group cannot launch instance; please investigate the cloud service.,compute,compute,0.2747,True,0.341
+Compute host thermal warning; please investigate the cloud service.,compute,security,0.2393,True,0.369
+Database service returning errors; please investigate the cloud service.,database,database,0.3098,False,0.538
+Database connection pool exhausted; please investigate the cloud service.,database,database,0.267,True,0.352
+Query execution plans have degraded; please investigate the cloud service.,database,database,0.2316,True,0.282
+Routing table change disrupted traffic; please investigate the cloud service.,network,network,0.2449,True,0.265
+Network latency increased sharply; please investigate the cloud service.,network,storage,0.2518,True,0.257
+Load balancer backend unreachable; please investigate the cloud service.,network,network,0.2086,True,0.288
+Privilege escalation event flagged; please investigate the cloud service.,security,network,0.2086,True,0.252
+Unauthorized access attempt detected; please investigate the cloud service.,security,security,0.2691,True,0.252
+Security policy violation identified; please investigate the cloud service.,security,security,0.2424,True,0.259
+Object storage upload errors; please investigate the cloud service.,storage,storage,0.2371,True,0.446
+Storage snapshot operation failed; please investigate the cloud service.,storage,network,0.2225,True,0.256
+Storage volume write failures; please investigate the cloud service.,storage,storage,0.2475,True,0.249

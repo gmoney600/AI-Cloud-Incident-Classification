@@ -1,0 +1,36 @@
+message,category
+CPU saturation on application instance; please investigate the cloud service.,compute
+Memory usage spiking on server; please investigate the cloud service.,compute
+Instance scheduler reports failures; please investigate the cloud service.,compute
+Container orchestration pod evicted; please investigate the cloud service.,compute
+Application process out of memory; please investigate the cloud service.,compute
+Virtual machine health check failed; please investigate the cloud service.,compute
+Container repeatedly restarting; please investigate the cloud service.,compute
+Database replica synchronization delayed; please investigate the cloud service.,database
+Database transactions are waiting; please investigate the cloud service.,database
+SQL queries are running slowly; please investigate the cloud service.,database
+Relational database deadlocks observed; please investigate the cloud service.,database
+Transaction locks causing delays; please investigate the cloud service.,database
+Database query latency rising; please investigate the cloud service.,database
+Database index scan is inefficient; please investigate the cloud service.,database
+Service endpoint connection refused; please investigate the cloud service.,network
+Firewall routing path failed; please investigate the cloud service.,network
+VPN tunnel connectivity unstable; please investigate the cloud service.,network
+Packet loss between application nodes; please investigate the cloud service.,network
+Network gateway connection timeout; please investigate the cloud service.,network
+Network interface dropping packets; please investigate the cloud service.,network
+DNS resolution intermittent; please investigate the cloud service.,network
+Malware signature detected on host; please investigate the cloud service.,security
+Security token misuse reported; please investigate the cloud service.,security
+Suspicious login from unknown region; please investigate the cloud service.,security
+Credential compromise suspected; please investigate the cloud service.,security
+Ransomware behavior detected; please investigate the cloud service.,security
+Unusual outbound data transfer; please investigate the cloud service.,security
+Repeated failed authentication attempts; please investigate the cloud service.,security
+Volume read latency increased; please investigate the cloud service.,storage
+Disk capacity nearing limit; please investigate the cloud service.,storage
+Persistent disk is nearly full; please investigate the cloud service.,storage
+Block volume IOPS throttling; please investigate the cloud service.,storage
+Storage quota threshold exceeded; please investigate the cloud service.,storage
+Filesystem inode exhaustion detected; please investigate the cloud service.,storage
+Filesystem space critically low; please investigate the cloud service.,storage

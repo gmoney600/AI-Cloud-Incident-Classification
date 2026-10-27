@@ -1,0 +1,100 @@
+{
+  "dataset": "synthetic, author-created; not real patient or production incident data",
+  "train_count": 35,
+  "test_count": 15,
+  "accuracy": 0.6666666666666666,
+  "macro_f1": 0.6666666666666666,
+  "baseline_accuracy": 0.6666666666666666,
+  "baseline_macro_f1": 0.6599999999999999,
+  "median_latency_ms": 0.282,
+  "manual_review_count": 14,
+  "classification_report": {
+    "database": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "network": {
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "security": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 3.0
+    },
+    "storage": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 3.0
+    },
+    "compute": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.7466666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 15.0
+    },
+    "weighted avg": {
+      "precision": 0.7466666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 15.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "database",
+    "network",
+    "security",
+    "storage",
+    "compute"
+  ],
+  "confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  ]
+}

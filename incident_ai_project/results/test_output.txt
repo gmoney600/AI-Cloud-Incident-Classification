@@ -1,0 +1,10 @@
+test_empty_alert_rejected (test_incident_ai.IncidentAITests.test_empty_alert_rejected) ... ok
+test_human_review_gate (test_incident_ai.IncidentAITests.test_human_review_gate) ... ok
+test_no_autonomous_remediation (test_incident_ai.IncidentAITests.test_no_autonomous_remediation) ... ok
+test_oversized_alert_rejected (test_incident_ai.IncidentAITests.test_oversized_alert_rejected) ... ok
+test_valid_response (test_incident_ai.IncidentAITests.test_valid_response) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK
