@@ -1,4 +1,4 @@
-# AI-Assisted Cloud Incident Classification (Local Prototype)
+# AI-Assisted Cloud Incident Classification
 
 
 
@@ -32,7 +32,7 @@ Categories: database, network, security, storage, compute. Training and testing 
 - `results/`: measured output, model and test logs.
 - `deploy/`: sample events and AWS integration guidance.
 
-## Deployment concept (NOT performed)
+## Deployment concept
 
 1. Create an AWS Lambda Python function in a suitable region and role with minimum required permissions.
 2. Package `src/incident_ai.py`, the trusted serialized model, scikit-learn, numpy, scipy and joblib in a Lambda-compatible container image (recommended due to native libraries).
